@@ -9,9 +9,9 @@
 
     <div class="board">
 
-        <div class="board-bar">
-            <p class="board-name">Tnest Board</p>
-        </div>
+        <!-- <div class="board-bar">
+            <p class="board-name">Test Board</p>
+        </div> -->
 
         <div class="board-wrapper">
 
@@ -31,7 +31,14 @@
                             {{item}}
                         </div>
                     </div>
+                    
+                    <div class="addNew">
+                        <!-- <p>Add new</p> -->
+                        <input class="inputNew" id="add" #add type="text" placeholder="Enter a new task" ((submit))="addNew(col, add.value)">
+                        <button type="submit" (click)="addNew(col, add.value)">add</button>
+                    </div>
                 </div>
+                
 
             </div>
 

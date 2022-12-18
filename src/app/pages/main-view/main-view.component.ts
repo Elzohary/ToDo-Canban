@@ -10,6 +10,7 @@ import { Column } from 'src/app/models/Column.model';
   styleUrls: ['./main-view.component.scss']
 })
 export class MainViewComponent implements OnInit {
+[x: string]: any;
 
   board: Board = new Board('Test Board', [
     new Column('Ideas', [
@@ -45,6 +46,10 @@ export class MainViewComponent implements OnInit {
         event.currentIndex,
       );
     }
+  }
+
+  addNew(col: Column, add: string ) {
+    col.tasks.push(add);
   }
 
 }
