@@ -1,4 +1,7 @@
-# CanbanAngular
+# Canban - Angular
+
+![image](https://user-images.githubusercontent.com/96190296/208626082-5c79eec9-9fb7-4bbf-9214-60e5398957a7.png)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
